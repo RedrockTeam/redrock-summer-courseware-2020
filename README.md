@@ -1,4 +1,1 @@
-# RedrockTeam Summer Courseware
-
-Doing……..
-
+# RedrockTeam Front-End Summer Courseware
