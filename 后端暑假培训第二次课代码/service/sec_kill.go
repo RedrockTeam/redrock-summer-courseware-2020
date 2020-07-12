@@ -46,9 +46,11 @@ func getItem(itemId uint) *Item{
 }
 
 func order() {
-	user := <- OrderChan
-	item := getItem(user.GoodsId)
-	item.SecKilling(user.UserId)
+	for {
+		user := <- OrderChan
+		item := getItem(user.GoodsId)
+		item.SecKilling(user.UserId)
+	    }
 }
 
 func (item *Item) SecKilling(userId string) {
