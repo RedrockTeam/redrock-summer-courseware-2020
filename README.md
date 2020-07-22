@@ -1,4 +1,0 @@
-# RedrockTeam Summer Courseware
-
-Doing……..
-
